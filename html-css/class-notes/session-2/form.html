@@ -29,7 +29,7 @@
             <label for="gender1">Erkek</label>
             <input type="radio" name="cinsiyet" id="gender1" value="Erkek" >
             <label for="gender2">Kadın</label>
-            <input type="radio" name="cinsiyet" id="gender2">
+            <input type="radio" name="cinsiyet" id="gender2" value="Kadın">
         </div>
 
         <div>
@@ -42,9 +42,21 @@
             <label for="horse">Unicorn</label>
         </div>
 
+        <div>
+            <label for="age">Yaş:</label>
+            <input type="number" name="Girilen yaş" id="age" min="18" max="999">
+        </div>
+
+        <div>
+            <label for="search">Ara:</label>
+            <input type="search" name="Aranan_Kelime" id="search" maxlength="5" minlength="3">
+        </div>
+
 
         <br><br><br><br><br>
         <input type="submit" value="Gönder">
+        <br><br><br>
+        <input type="reset" value="Sıfırla">
     </form>
     
 </body>
