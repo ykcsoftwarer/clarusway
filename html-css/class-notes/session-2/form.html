@@ -10,12 +10,37 @@
     <h1>Welcome to Clarusway</h1>
 
     <form action="result.html" method="get">
+
+        <div>
+            <label for="name">Adınızı Giriniz:</label>
+            <input type="text" name="isim" id="name" placeholder="Isminizi giriniz..." >
+            <br>
+            <label for="lname">Soyadınızı Giriniz:</label>
+            <input type="text" name="Soyad" id="lname" placeholder="Soyadınızı giriniz..." >
+        </div>
         
-        <label for="name">Adınızı Giriniz:</label>
-        <input type="text" name="isim" id="name">
-        <br>
-        <label for="lname">Soyadınızı Giriniz:</label>
-        <input type="text" name="Soyad" id="lname" >
+        <div>
+            <label for="sifre">Parolanızı giriniz:</label>
+            <input type="password" name="Girilen Parola" id="sifre">
+        </div>
+
+        <div>
+            <p>Cinsiyetinizi Giriniz:</p>
+            <label for="gender1">Erkek</label>
+            <input type="radio" name="cinsiyet" id="gender1" value="Erkek" >
+            <label for="gender2">Kadın</label>
+            <input type="radio" name="cinsiyet" id="gender2">
+        </div>
+
+        <div>
+            <p>Favori hayvanlarınızı işaretleyin</p>
+            <input type="checkbox" name="hayvan_1" id="panda" value="Panda">
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="hayvan_2" id="fish" value="Balık">
+            <label for="fish">Balık</label>
+            <input type="checkbox" name="hayvan_3" id="horse" value="Unicorn">
+            <label for="horse">Unicorn</label>
+        </div>
 
 
         <br><br><br><br><br>
