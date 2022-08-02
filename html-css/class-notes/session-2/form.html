@@ -136,11 +136,33 @@
 
             <label for="yorum">Yorum</label>
             <br>
-
             <textarea  name="Girilen_yorum" id="yorum" placeholder="Yorum Lütfen..."></textarea>
+        </div>
 
+        <div>
+            <label for="input-browser">Browsers:</label>
 
+            <input type="text" name="Kullanılan Browser" id="input-browser" list="browsers">
 
+            <datalist id="browsers">
+                <option value="FireFox"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Brave"></option>
+            </datalist>
+
+        </div>
+        <br><br><br>
+
+        <div>
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <label for="fname">isim</label>
+                <input type="text" name="isim" id="fname">
+                <br>
+                <label for="sname">Soyisim</label>
+                <input type="text" name="soyisim" id="sname">
+            </fieldset>
         </div>
 
 
