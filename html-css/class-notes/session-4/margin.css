@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .container{
     /* border: 2px solid red; */
@@ -18,20 +20,24 @@ h1{
 }
 
 #par1{
+    box-sizing: border-box;
     border: 5px solid blue;
     background-color: coral;
     /* margin-top: 0; */
     width: 250px;
-    margin: 50px auto;
-    padding:20px ;
+    height: 150px;
+    margin: 50px auto; 
+    padding: 10px ; 
+    overflow: scroll;
 }
 
 #par2{
+    box-sizing: border-box;
     background-color: rgba(100, 148, 237, 0.544);
     /* margin: inherit; */
     /* margin-top: -80px; */
     padding-left: 20px;
-    padding-top: 20px;
+    padding: 20px;
     
 
 }
