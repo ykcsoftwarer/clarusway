@@ -1,0 +1,30 @@
+h2{
+    text-align: center;
+}
+
+#par1{
+    color: blue;
+    text-align: center;
+
+}
+
+#par2{
+    color: rgba(255, 0, 0, 1);
+
+}
+
+#par3{
+    color: #3f16c5;
+
+}
+
+#par4{
+    color: hsl(0, 100%, 50%);
+
+}
+
+#par5{
+    color: fuchsia;
+
+}
+

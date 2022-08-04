@@ -5,6 +5,7 @@ body{
 }
 
 a{
+    /* display: block; */
     /* border: 1px solid red; */
     padding: 5px;
     /* margin: 10px; */
@@ -18,7 +19,7 @@ a{
 
 a:hover{
     background-color: gray;
-    color: white;
+    /* color: red; */
 }
 
 a:visited{
@@ -28,3 +29,10 @@ a:visited{
 a:active{
     background-color: red;
 }
+
+/* .box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    
+} */
