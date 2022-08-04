@@ -1,0 +1,19 @@
+*{
+    /* margin: 0; */
+}
+
+h1{
+    background-color: aquamarine;
+    /* margin-bottom: 0; */
+}
+
+#par1{
+    background-color: coral;
+    /* margin-top: 0; */
+    width: 250px;
+    margin: auto;
+}
+
+#par2{
+    background-color: cornflowerblue;
+}
