@@ -68,9 +68,12 @@ margin-top: 10px;
 
 .input-box{
     margin-top: 10px;
-    /* font-family: harvey; */
-    font-size: 2rem;
+    /* font-family: constella; */
+    /* font-size: 2rem; */
 
+}
+#checkbox, #radio{
+    margin-top: 40px;
 }
 
 #form-button{
@@ -95,6 +98,6 @@ margin-top: 10px;
 }
 
 @font-face {
-    font-family: harvey ;
+    font-family: constella;
     src: url(./fonts/constella.ttf);
 }
