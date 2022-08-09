@@ -99,16 +99,40 @@ console.log(typeof '') */
 
 // console.log('3'- 2)
 
-let m = ``
+// let m = ``
 
-let n = ' '
+// let n = ' '
 
-let p = 0
+// let p = 0
 
-console.log(Boolean(m))
-console.log(Boolean(n))
-console.log(Boolean(p))
-console.log(Boolean(3 > 5))
-console.log(Boolean(3 > 2))
+// console.log(Boolean(m))
+// console.log(Boolean(n))
+// console.log(Boolean(p))
+// console.log(Boolean(3 > 5))
+// console.log(Boolean(3 > 2))
 
 
+const myCar = {
+    make : 'ford',
+    model : 'Mustang',
+    year : 1965,
+    color : 'Black'
+  }
+
+  console.log(myCar)
+  
+  myCar.color = 'green'
+  
+  console.log(myCar)
+  
+  //   myCar = 'ford'
+  
+  myCar.sunRoof = false;
+  
+  console.log(myCar)
+  
+  myCar.age = function(current){
+      console.log(current - this.year)
+    }
+    
+myCar.age(2010)
