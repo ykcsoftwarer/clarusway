@@ -78,26 +78,37 @@ console.log(typeof '') */
 // console.log(h)
 
 
-let i = 'This "is "a\' """""s"""""tring';
-let j = "This '''''i''s a\" string";
-let k = `This is a string`;
+// let i = 'This "is "a\' """""s"""""tring';
+// let j = "This '''''i''s a\" string";
+// let k = `This is a string`;
 
-console.log(i,typeof i)
-console.log(j,typeof j)
-console.log(k,typeof k)
+// console.log(i,typeof i)
+// console.log(j,typeof j)
+// console.log(k,typeof k)
 
 
 
-let userName = 'Musa  ';
-console.log(userName)
+// let userName = 'Musa  ';
+// console.log(userName)
 
-console.log('Merhaba ', userName )
+// console.log('Merhaba ', userName )
 
-console.log(`Merhaba ${userName}`)
+// console.log(`Merhaba ${userName}`)
 
-console.log(`2 + 3 = ${2 +'3'}`)
+// console.log(`2 + 3 = ${2 +'3'}`)
 
-console.log('3'- 2)
+// console.log('3'- 2)
 
+let m = ``
+
+let n = ' '
+
+let p = 0
+
+console.log(Boolean(m))
+console.log(Boolean(n))
+console.log(Boolean(p))
+console.log(Boolean(3 > 5))
+console.log(Boolean(3 > 2))
 
 
