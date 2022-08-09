@@ -69,6 +69,35 @@ console.log(typeof '') */
 // console.log(z)
 // console.log(zz)
 
-let g = 0.1+0.2
-console.log(g)
-console.log(+g.toFixed(2))
+// let g = 0.1+0.2
+// console.log(g)
+// console.log(+g.toFixed(2))
+
+// let h = 1_000_000_000
+
+// console.log(h)
+
+
+let i = 'This "is "a\' """""s"""""tring';
+let j = "This '''''i''s a\" string";
+let k = `This is a string`;
+
+console.log(i,typeof i)
+console.log(j,typeof j)
+console.log(k,typeof k)
+
+
+
+let userName = 'Musa  ';
+console.log(userName)
+
+console.log('Merhaba ', userName )
+
+console.log(`Merhaba ${userName}`)
+
+console.log(`2 + 3 = ${2 +'3'}`)
+
+console.log('3'- 2)
+
+
+
