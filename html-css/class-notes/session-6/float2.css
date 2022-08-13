@@ -23,6 +23,7 @@ aside{
     height: 300px;
     float: left;
     margin-left: 10px;
+
 }
 
 article{
@@ -30,11 +31,13 @@ article{
     width: 70%;
     height: 300px;
     float: left;
+
 }
 
 
 footer{
     background-color: coral;
+    /* height: 10px; */
 }
 
 /* .clear{
