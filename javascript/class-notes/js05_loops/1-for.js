@@ -33,3 +33,20 @@ for (let i = 1; i <= 10; i++) {
 
 //? ÖRNEK: Girilen bir sayinin Asal olup olmadigini yazdiran kodu
 //? for dongulerini kullanarak yaziniz.
+
+const sayi = Number(prompt("Pozitif Bir sayi giriniz:"));
+let asal = true;
+
+if (sayi <= 1) {
+  alert("Sayi 1'den buyuk olmalidir.");
+} else {
+  for (let i = 2; i < sayi; i++) {
+    if (sayi % i === 0) {
+      asal = false;
+      break;
+    }
+  }
+
+  const sonuc = asal === true ? "ASALDIR" : "ASAL DEGILDIR";
+  console.log(`${sayi} ${sonuc}`);
+}
